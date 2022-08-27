@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.novaagenda">
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_my_icon"
+        android:label="Nova Agenda"
+        android:roundIcon="@mipmap/ic_my_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NovaAgenda">
+        <!-- Registra a activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <!-- Deixa a activity principal e que pode ser ser clicada na lista de apps -->
+             <intent-filter>
+                 <!--  É a activity principal que vai iniciar -->
+                  <action android:name="android.intent.action.MAIN" />
+                 <!--  faz com que seja lançada ou quando aparece na lista de app pode ser clicada -->
+                  <category android:name="android.intent.category.LAUNCHER" />
+              </intent-filter>
+           </activity>
+           <activity android:name=".FormularioPessoaActivity"/>
+       </application>
+   </manifest>

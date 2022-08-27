@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Para afetar a cor do texto dentro do listview e adapta ele para o modo escuro-->
+    <color name="black">#DFDBDB</color>
+
+</resources>
